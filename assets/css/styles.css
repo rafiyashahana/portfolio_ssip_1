@@ -72,14 +72,14 @@ nav {
 }
 
 .section__header h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300rem;
   color: var(--primary);
   margin-bottom: 2rem;
 }
 .section__header p {
-  font-size: 1.5rem;
-  font-weight: 300rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   color: var(--text-dark);
   margin-bottom: 3rem;
 }
@@ -116,5 +116,8 @@ nav {
   text-align: center;
 }
 .about__container p {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  line-height: 2rem;
 }
