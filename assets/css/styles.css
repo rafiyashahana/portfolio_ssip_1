@@ -121,3 +121,23 @@ nav {
   color: var(--text-dark);
   line-height: 2rem;
 }
+
+.skills__container {
+  text-align: center;
+}
+.skills__container .skills__list {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills__container .skill {
+  text-align: center;
+  color: var(--white);
+  background-color: var(--primary);
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 2rem;
+}
