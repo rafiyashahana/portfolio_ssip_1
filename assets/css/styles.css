@@ -135,6 +135,9 @@ nav {
 
 .skills__container {
   text-align: center;
+  border: solid 0.1rem var(--light);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 .skills__container .skills__list {
   margin-top: 5rem;
@@ -178,4 +181,29 @@ nav {
   display: flex;
   gap: 1rem;
   justify-content: center;
+}
+.contact__container {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border: solid 0.1rem var(--primary);
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600rem;
+}
+
+.contact__container i {
+  font-size: 32px;
+  color: var(--primary-dark);
+}
+
+.contact__container span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
